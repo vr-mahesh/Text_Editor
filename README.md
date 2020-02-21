@@ -1,7 +1,9 @@
 # Text Editor
 
-This Web page will allow you to edit text  , modify  and apply basic stylings like BOLD, ITALIC , UNDERLINE, LEFT ALIGNMENT, RIGHT ALIGNMENT
+This Web page will allow you to edit text , modify  and apply stylings like BOLD, ITALIC , UNDERLINE, LEFT ALIGNMENT, RIGHT ALIGNMENT
 CENTER -ALIGNMENT, JUSTIFY - ALIGNMENT
+
+This app contains features of OVERLAPPING styles which is similar to google text editor.
 
 ## Installation
 1. Clone the repository `https://github.com/neu-mis-info6150-fall-2019/assignment-6-MaheshPrasad44`.
