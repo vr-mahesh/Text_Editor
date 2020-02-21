@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Editor</title>
+    <!--Importing the Javascript files and CSS files required for styling and functionality. -->
+
+    <link rel="stylesheet" href="CSS/editor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header tag which contains Name of the editor -->
+<div class="editorName"><h1> Text Editor </h1></div>
+<div>
+    <div class="styleBarContainer">
+        <!--Container which contains all the styling buttons -->
+      <div class="styleBar"><button id="boldBtn" class="boldBtn btnCommon" ><i class="fa fa-bold"></i></button></div>
+      <div class="styleBar" ><button id="underlineBtn" class="underlineBtn btnCommon" ><i class="fa fa-underline"></i></button></div>
+      <div class="styleBar"><button id="ItalicBtn" class="ItalicBtn btnCommon" ><i class="fa fa-italic"></i></button></div>
+          <div class="styleBar"><button id="justify_Align" class="justify_Align btnCommon" ><i class="fa fa-align-justify"></i></button></div>
+          <div class="styleBar"><button id="left_Align" class="left_Align btnCommon" ><i class="fa fa-align-left"></i></button></div>
+          <div class="styleBar"><button id="right_Align" class="right_Align btnCommon"><i class="fa fa-align-right"></i></button></div>
+          <div class="styleBar"><button id="center_Align" class="center_Align btnCommon" ><i class="fa fa-align-center"></i></button></div>
+   </div>
+      <br>
+      <!-- Editable div where text can be written and applied style -->
+    <div style="border: 1px solid gray;" contenteditable="true" id="textAreaContainer_ID" class="textAreaContainer">
+    </div>
+</div>
+<script src="JS/editor.js"></script>
+</body>
+</html>
